@@ -1,6 +1,9 @@
 # decimal
 
-[![Build Status](https://travis-ci.org/shopspring/decimal.png?branch=master)](https://travis-ci.org/shopspring/decimal) [![GoDoc](https://godoc.org/github.com/shopspring/decimal?status.svg)](https://godoc.org/github.com/shopspring/decimal) [![Go Report Card](https://goreportcard.com/badge/github.com/shopspring/decimal)](https://goreportcard.com/report/github.com/shopspring/decimal)
+[![Build Status](https://github.com/lovego/decimal/actions/workflows/go.yml/badge.svg)](https://github.com/lovego/decimal/actions/workflows/go.yml)
+[![Coverage Status](https://coveralls.io/repos/github/lovego/decimal/badge.svg?branch=master)](https://coveralls.io/github/lovego/decimal)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lovego/decimal)](https://goreportcard.com/report/github.com/lovego/decimal)
+[![Documentation](https://pkg.go.dev/badge/github.com/lovego/decimal)](https://pkg.go.dev/github.com/lovego/decimal@v1.2.6)
 
 Arbitrary-precision fixed-point decimal numbers in go.
 
@@ -16,7 +19,7 @@ _Note:_ Decimal library can "only" represent numbers with a maximum of 2^31 digi
 
 ## Install
 
-Run `go get github.com/shopspring/decimal`
+Run `go get github.com/lovego/decimal`
 
 ## Requirements 
 
@@ -29,7 +32,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/shopspring/decimal"
+	"github.com/lovego/decimal"
 )
 
 func main() {
@@ -59,11 +62,11 @@ func main() {
 
 ## Documentation
 
-http://godoc.org/github.com/shopspring/decimal
+http://godoc.org/github.com/lovego/decimal
 
 ## Production Usage
 
-* [Spring](https://shopspring.com/), since August 14, 2014.
+* [Spring](https://lovego.com/), since August 14, 2014.
 * If you are using this in production, please let us know!
 
 ## FAQ
